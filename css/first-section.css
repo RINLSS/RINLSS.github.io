@@ -45,3 +45,25 @@
 .leadspro-link:hover {
 	color: rgb(245, 203, 124);
 }
+
+.contact-link {
+	text-decoration: none;
+	display: inline-flex;
+  align-items: flex-end;
+	color: rgb(127, 127, 127);
+	font-size: 10px;
+	transition: 500ms;
+}
+
+.contact-link h2 {
+	font-size: 14px;
+	padding-bottom: 6px;
+}
+
+.contact-link p {
+	padding-left: 10px;
+}
+
+.contact-link:hover {
+	color: rgb(245, 203, 124);
+}
