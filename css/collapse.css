@@ -1,0 +1,62 @@
+
+a.btn.click-me {
+	color: rgb(173, 173, 173);
+	box-shadow: none;
+	border-color: transparent !important;
+	outline: none;
+	font-size: 13px;
+	text-align: left;
+	padding: 0;
+	/* padding-bottom: 20px; */
+}
+
+a.btn.click-me:hover,
+a.btn.click-me.active {
+    color: rgb(245, 203, 124);
+}
+
+.card {
+	width: 300px;
+}
+
+.card-body {
+	background-color: black !important;
+	font-size: 14px;
+	color: rgb(110, 110, 110) !important;
+	padding: 20px 0px !important;
+}
+
+/* Hide the star image by default */
+.star-image {
+  display: none;
+}
+
+/* Show the star image when the collapse element is open */
+.collapse.show .star-image {
+  display: block;
+  animation: fadeInFromTop 600ms ease; /* Apply the animation to the image */
+}
+
+@keyframes fadeInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.star-image {
+  width: 150px;
+  padding-top: 20px;
+}
+
+.arrow {
+	transition: transform 300ms;
+}
+
+.arrow.rotate {
+	transform: rotate(180);
+}

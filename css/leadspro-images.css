@@ -1,0 +1,16 @@
+.leadspro-images {
+  display: flex;
+  flex-wrap: wrap;
+	align-items: flex-start;
+	margin-top: 60px;
+}
+
+.leadspro-images img {
+	width: 450px;
+	overflow-y: hidden;
+	overflow-x: hidden;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	object-fit: contain;
+}

@@ -1,0 +1,42 @@
+.video-container {
+	margin-left: 15px;
+	display: flex;
+}
+
+.video-details {
+	margin-left: 30px;
+	color: rgb(173, 173, 173);
+	font-size: 16px;
+	opacity: 0;
+	transition: 300ms;
+	width: 270px;
+}
+
+.video-details p {
+	font-size: 12.5px;
+}
+
+.main-video {
+	display: block;
+	width: 100%;
+	background-size: cover;
+	border-radius: 6px;
+	margin-left: 10px;
+	height: 700px;
+	overflow-y: auto;
+	overflow-x: hidden;
+	box-sizing: border-box;
+}
+
+.main-video::-webkit-scrollbar {
+	width: 6px;
+}
+
+.main-video::-webkit-scrollbar-thumb {
+	background-color: rgba(173, 173, 173, 0.3);
+	border-radius: 20px;
+}
+
+.video-container:hover + .video-details {
+  opacity: 1;
+}

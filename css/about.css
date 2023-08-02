@@ -1,0 +1,30 @@
+.wrapper {
+	display: inline-flex;
+}
+
+.edu-about {
+	color: rgb(127, 127, 127);
+	font-size: 16px;
+	margin-top: 40px;
+}
+
+.about {
+	width: 350px;
+	color: rgb(173, 173, 173);
+	margin-right: 100px;
+}
+
+.about > h2 {
+	color: rgb(117, 117, 117);
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.about > p {
+	color: rgb(127, 127, 127);
+	font-size: 14px;
+}
+
+.about h3 {
+	font-size: 16px;
+}

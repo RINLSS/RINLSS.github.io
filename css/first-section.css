@@ -1,0 +1,47 @@
+.muddy {
+	height: 400px;
+	margin-bottom: 20px;
+	border-radius: 4px;
+}
+
+.info {
+	width: 350px;
+	margin: 20px 0;
+	color: rgb(173, 173, 173);
+}
+
+.info > h2 {
+	color: rgb(117, 117, 117);
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.info > p {
+	color: rgb(127, 127, 127);
+	font-size: 14px;
+}
+
+.highlights {
+	color: rgb(245, 203, 124);
+}
+
+.info h3 {
+	font-size: 16px;
+}
+
+.leadspro-link {
+	text-decoration: none;
+	display: inline-flex;
+  align-items: flex-end;
+	color: rgb(127, 127, 127);
+	font-size: 12px;
+	transition: 500ms;
+}
+
+.leadspro-link p {
+	padding-left: 10px;
+}
+
+.leadspro-link:hover {
+	color: rgb(245, 203, 124);
+}

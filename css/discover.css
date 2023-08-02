@@ -1,0 +1,13 @@
+.discover {
+	background-color: rgba(0, 0, 0, 0);
+	color: rgb(245, 203, 124);
+  box-shadow: 2px 2px rgba(245, 203, 124, 0.2);
+	margin-top: 20px;
+	font-size: 12px;
+	transition: 500ms ease;
+}
+
+.discover:hover {
+	background-color: rgb(245, 203, 124);
+	color: black;
+}

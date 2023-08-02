@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/first-section.css">
+	<link rel="stylesheet" href="css/leadspro-images.css">
+	<link rel="stylesheet" href="css/collapse.css">
+	<title>Learn more about LeadsPro</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+	<div class="navigation">
+		<h2><a href="homepage.html">Home</a></h2>
+		<h2><a href="about.html">About</a></h2>
+		<h2><a href="contactme.html">Contact Me</a></h2>
+	</div>
+
+	<div class="container d-flex">
+		<div>
+			<div class="info">
+				<a class="leadspro-link" href="https://leadspro-9ddc3d1f2886.herokuapp.com/dashboard"><h1>LeadsPro</h1><p>🔗</p></a>
+				<h2>Group project developed at Le Wagon</h2>
+				<h3>Some of the features I worked on include:</h3>
+				<!-- btn for pages -->
+				<a class="btn click-me" data-bs-toggle="collapse" href="#collapseExample1" role="button" aria-expanded="false" aria-controls="collapseExample1">
+					Page Mockups on Figma <span class="arrow">⬎</span>
+				</a>
+				<div class="collapse" id="collapseExample1">
+						<div class="card card-body">
+								I helped to design components and aid in the prototyping of the wireframe for this project.
+						</div>
+				</div>
+				<!-- button for email -->
+				<a class="btn click-me" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample2">
+					Email function using stimulus and an API <span class="arrow">⬎</span>
+				</a>
+				<div class="collapse" id="collapseExample2">
+					<div class="card card-body">
+							One of the harder challenges I faced during this project, I had set up the Stimulus controller to handle
+							form submissions and gather user input data, such as the lead's email and the message.
+							<br>
+							<br>
+							Allowing the user to select multiple recipients to email with the same message if they wished.
+					</div>
+				</div>
+				<!-- Implenting design -->
+				<a class="btn click-me" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample3">
+					Implementing Figma design into application <span class="arrow">⬎</span>
+				</a>
+				<div class="collapse" id="collapseExample3">
+					<div class="card card-body">
+							Using SCSS to add styles and design to our application.
+							I styled individual components, utilizing SCSS nesting to organize related styles efficiently. Responsive design was
+							implemented to ensure the application's adaptability across various screen sizes.
+							<br>
+							<br>
+							Broke down the elements into smaller components to tackle, for example the pop-ups for the email function.
+					</div>
+				</div>
+				<!-- stars -->
+				<a class="btn click-me" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample4">
+					Rating system based on the rank given to a lead <span class="arrow">⬎</span>
+				</a>
+				<div class="collapse" id="collapseExample4">
+						<div class="card card-body">
+								Providing a rank type per rank of the lead, in my project we decided to use 3 tiers,
+								empty stars, half empty and a full star.
+								<img class="star-image" src="images/stars.JPG" alt="star example">
+						</div>
+				</div>
+
+			</div>
+		</div>
+
+		<div class="leadspro-images">
+			<img src="images/frontpage.JPG" alt="Front Page">
+			<img src="images/campaigns-page.JPG" alt="Campaigns Page">
+			<img src="images/messageboxes.JPG" alt="Message Boxes">
+			<img src="images/button-components.JPG" alt="Button Components">
+		</div>
+	</div>
+
+	<script src="btn-click.js"></script>
+	<script src="rotate-arrow.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
